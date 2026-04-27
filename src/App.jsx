@@ -1,8 +1,6 @@
-import React from 'react';
-
 import { Sum } from './components/Sum/Sum';
 
-function App() {
+export const App = () => {
   return (
     <div>
       <Sum a={2} b={3} />
@@ -12,6 +10,4 @@ function App() {
       <Sum />
     </div>
   );
-}
-
-export default App;
+};
